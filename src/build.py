@@ -73,7 +73,6 @@ SUN = '''<svg class="ph-sun" viewBox="0 0 300 170" fill="none" aria-hidden="true
 def hero(m, mode):
     crumb, h1, lead = m.group(1).split('|')
     return f'''<section class="page-hero" aria-labelledby="ph-t">
-  {SUN}
   <div class="wrap">
     <p class="crumbs"><a href="{href('index.html', mode)}">Início</a><svg><use href="#i-arrow"/></svg><span aria-current="page">{crumb}</span></p>
     <h1 id="ph-t">{h1}</h1>
@@ -94,7 +93,7 @@ CTA = '''<section class="section tight" aria-labelledby="cta-t">
 
 FONTS = '''<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800;900&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Caveat:wght@500;700&display=swap">'''
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600&family=Source+Sans+3:wght@400;600;700&family=Caveat:wght@500&display=swap">'''
 
 
 def render(f, title, desc, mode, fragment_only):

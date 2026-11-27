@@ -58,7 +58,8 @@ git branch -D gh-pages-novo
 - Azul institucional `#0258A3`: marca, navegação e destaques
 - Branco `#FEFEFE`: fundos
 - Amarelo `#FEAA03`: botões de ação e detalhes (texto escuro `#0A2342` sobre ele)
-- Tipografia: Nunito (títulos), DM Sans (texto) e Caveat (só para simular escrita à mão)
+- Tipografia: Lexend (títulos), Source Sans 3 (texto) e Caveat (só na amostra de prova manuscrita)
+- Estilo: minimalismo corporativo, com grade, fundo branco, cantos discretos e sombras leves
 
 ## Pendências
 

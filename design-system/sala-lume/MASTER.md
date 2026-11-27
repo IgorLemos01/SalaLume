@@ -1,6 +1,7 @@
 > **Substituição obrigatória (identidade Sala Lume):** a paleta sugerida pela skill (roxo #7C3AED / ciano) foi descartada.
 > Paleta oficial: azul #0258A3 (marca, navegação), branco #FEFEFE (fundos), amarelo #FEAA03 (CTAs e destaques; texto escuro #0A2342 sobre ele).
-> Tipografia adotada: Nunito 800/900 (títulos, terminais arredondados como a logo) + DM Sans (texto) + Caveat (apenas para simular escrita à mão).
+> Tipografia adotada (revisão formal): Lexend 500/600 (títulos) + Source Sans 3 (texto), par "Corporate Trust" da skill; Caveat apenas na amostra manuscrita.
+> Estilo adotado: "Minimalism & Swiss Style" da skill (grade, espaço em branco, raios de 6 a 14px, sombras leves).
 > Mantidos da skill: padrão Product Demo + Features, estilo AI-Native com pouca moldura, checklist de entrega (contraste 4.5:1, foco visível, reduced-motion, 375–1440px).
 
 # Design System Master File

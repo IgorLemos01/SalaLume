@@ -9,7 +9,7 @@
 <link rel="icon" href="assets/simbolo.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800;900&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Caveat:wght@500;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600&family=Source+Sans+3:wght@400;600;700&family=Caveat:wght@500&display=swap">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -36,6 +36,7 @@
       <symbol id="i-screen" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M3 4h18v12H3zM8 20h8M12 16v4"/></symbol>
     <symbol id="i-chart" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M3 3v18h18M8 17v-5M13 17V8M18 17v-8"/></symbol>
     <symbol id="i-calendar" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M4 5h16v16H4zM4 10h16M9 3v4M15 3v4"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M21 12a8 8 0 0 1-11.6 7.1L4 20.5l1.4-4.6A8 8 0 1 1 21 12ZM8.5 12h.01M12 12h.01M15.5 12h.01"/></symbol>
 </defs></svg>
 <header class="top" id="top">
   <div class="wrap">
@@ -47,13 +48,9 @@
 </header>
 <main>
 <section class="page-hero" aria-labelledby="ph-t">
-  <svg class="ph-sun" viewBox="0 0 300 170" fill="none" aria-hidden="true">
-  <path d="M40 170 A110 110 0 0 1 260 170" stroke="currentColor" stroke-width="16"/>
-  <path d="M150 35V15M58 73 44 59M242 73l14-14M24 131l-19-5M276 131l19-5" stroke="currentColor" stroke-width="14" stroke-linecap="round"/>
-</svg>
   <div class="wrap">
     <p class="crumbs"><a href="index.html">Início</a><svg><use href="#i-arrow"/></svg><span aria-current="page">Escrita à mão</span></p>
-    <h1 id="ph-t">O papel continua na sala. Agora ele também gera dados.</h1>
+    <h1 id="ph-t">O papel continua na sala. Agora ele também gera dados</h1>
     <p class="lead">Provas e tarefas manuscritas são digitalizadas e analisadas pela IA. O aluno segue treinando a escrita, e o professor ganha diagnóstico turma a turma.</p>
   </div>
 </section>
@@ -61,7 +58,7 @@
 <section class="section" aria-labelledby="wh-t">
   <div class="wrap">
     <div class="section-head">
-      <h2 id="wh-t">Por que manter o manuscrito.</h2>
+      <h2 id="wh-t">Por que manter o manuscrito</h2>
       <p class="lead">Escrever à mão desenvolve habilidades que o teclado e o corretor automático não treinam.</p>
     </div>
     <div class="cols-3">
@@ -80,12 +77,14 @@
         <p class="hand">Se eu divido uma barra em 4 partes e pinto 2, fica igual a dividir em 2 e pintar 1. Isso <mark>acontesse</mark> porque as duas são a metade da barra.</p>
         <p class="sig"><span>Pedro, 6ºB</span><span>12/05</span></p>
       </div>
-      <span class="ann a3" aria-hidden="true"><svg><use href="#i-check"/></svg>Conceito: 2 de 2</span>
-      <span class="ann a1" aria-hidden="true"><svg><use href="#i-spell"/></svg>Ortografia: “acontece”. Sinalizado, o aluno reescreve.</span>
-      <span class="ann a2" aria-hidden="true"><svg><use href="#i-eye"/></svg>Legibilidade boa</span>
+      <div class="anns" aria-label="Diagnóstico da resposta">
+        <span class="ann"><svg><use href="#i-check"/></svg>Conceito: 2 de 2</span>
+        <span class="ann warn"><svg><use href="#i-spell"/></svg>Ortografia: “acontece”. O aluno reescreve.</span>
+        <span class="ann"><svg><use href="#i-eye"/></svg>Legibilidade adequada</span>
+      </div>
     </div>
     <div class="pb-copy">
-      <h2 id="ms-t">Do papel ao diagnóstico em quatro passos.</h2>
+      <h2 id="ms-t">Fluxo de digitalização e análise</h2>
       <ol class="flow">
         <li><span class="n">1</span><div><h3>Aplicar</h3><p>O professor aplica a prova ou a tarefa, e os alunos entregam nas folhas padrão da escola.</p></div></li>
         <li><span class="n">2</span><div><h3>Digitalizar</h3><p>Turmas inteiras passam em lote pelo scanner com alimentador automático. Produções específicas vão para a câmera de documentos.</p></div></li>
@@ -99,7 +98,7 @@
 <section class="section" aria-labelledby="dg-t">
   <div class="wrap cols-2" style="align-items:start">
     <div class="section-head" style="margin:0">
-      <h2 id="dg-t">Diagnóstico, sem correção automática.</h2>
+      <h2 id="dg-t">Diagnóstico, sem correção automática</h2>
       <p class="lead">A IA mostra onde está o erro e deixa a correção com o aluno. Assim a escrita continua sendo treinada de verdade.</p>
     </div>
     <div class="box">
