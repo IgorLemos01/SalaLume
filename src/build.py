@@ -71,15 +71,18 @@ SUN = '''<svg class="ph-sun" viewBox="0 0 300 170" fill="none" aria-hidden="true
 
 
 def hero(m, mode):
-    crumb, h1, lead = m.group(1).split('|')
-    return f'''<section class="page-hero" aria-labelledby="ph-t">
+    crumb, h1, lead, art, variant = m.group(1).split('|')
+    svg = (S / 'illustrations' / f'{art}.svg').read_text().strip()
+    return f'''<section class="page-hero {variant}" aria-labelledby="ph-t">
   <div class="wrap">
-    <p class="crumbs"><a href="{href('index.html', mode)}">Início</a><svg><use href="#i-arrow"/></svg><span aria-current="page">{crumb}</span></p>
-    <h1 id="ph-t">{h1}</h1>
-    <p class="lead">{lead}</p>
+    <div class="ph-copy">
+      <p class="crumbs"><a href="{href('index.html', mode)}">Início</a><svg><use href="#i-arrow"/></svg><span aria-current="page">{crumb}</span></p>
+      <h1 id="ph-t">{h1}</h1>
+      <p class="lead">{lead}</p>
+    </div>
+    <div class="ph-art">{svg}</div>
   </div>
 </section>'''
-
 
 
 CTA = '''<section class="section tight" aria-labelledby="cta-t">

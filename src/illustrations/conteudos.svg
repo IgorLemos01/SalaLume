@@ -1,0 +1,34 @@
+<svg viewBox="0 0 560 440" fill="none" role="img" aria-label="Habilidade da BNCC conectada a vídeos, textos, exercícios, simulações e projetos">
+  <defs><filter id="ill-sh" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#0B1F35" flood-opacity=".18"/></filter></defs>
+  <!-- conexões -->
+  <g stroke="#7FA6CC" stroke-width="2" stroke-dasharray="4 6" stroke-linecap="round">
+    <path d="M280 220 C200 220 180 92 112 92"/>
+    <path d="M280 220 C360 220 380 92 448 92"/>
+    <path d="M280 220 C200 220 180 348 112 348"/>
+    <path d="M280 220 C360 220 380 348 448 348"/>
+    <path d="M280 220 V 392"/>
+  </g>
+  <!-- habilidade -->
+  <g filter="url(#ill-sh)"><rect x="186" y="172" width="188" height="96" rx="14" fill="#FEFEFE"/></g>
+  <rect x="186" y="172" width="188" height="96" rx="14" stroke="#FEAA03" stroke-width="3"/>
+  <rect x="204" y="190" width="84" height="22" rx="5" fill="#06315C"/><rect x="213" y="198" width="66" height="6" rx="3" fill="#FEFEFE"/>
+  <rect x="204" y="224" width="150" height="7" rx="3.5" fill="#506379"/><rect x="204" y="238" width="120" height="7" rx="3.5" fill="#506379"/>
+  <!-- recursos -->
+  <g filter="url(#ill-sh)">
+    <rect x="32" y="52" width="160" height="80" rx="12" fill="#FEFEFE"/>
+    <rect x="368" y="52" width="160" height="80" rx="12" fill="#FEFEFE"/>
+    <rect x="32" y="308" width="160" height="80" rx="12" fill="#FEFEFE"/>
+    <rect x="368" y="308" width="160" height="80" rx="12" fill="#FEFEFE"/>
+    <rect x="216" y="354" width="128" height="72" rx="12" fill="#FEFEFE"/>
+  </g>
+  <g fill="#EAF2FA"><rect x="46" y="70" width="44" height="44" rx="10"/><rect x="382" y="70" width="44" height="44" rx="10"/><rect x="46" y="326" width="44" height="44" rx="10"/><rect x="382" y="326" width="44" height="44" rx="10"/><rect x="230" y="368" width="44" height="44" rx="10"/></g>
+  <g color="#0258A3">
+    <use href="#i-play" x="56" y="80" width="24" height="24"/>
+    <use href="#i-book" x="392" y="80" width="24" height="24"/>
+    <use href="#i-list" x="56" y="336" width="24" height="24"/>
+    <use href="#i-flask" x="392" y="336" width="24" height="24"/>
+    <use href="#i-team" x="240" y="378" width="24" height="24"/>
+  </g>
+  <g fill="#0B1F35"><rect x="102" y="80" width="70" height="8" rx="4"/><rect x="438" y="80" width="62" height="8" rx="4"/><rect x="102" y="336" width="74" height="8" rx="4"/><rect x="438" y="336" width="70" height="8" rx="4"/><rect x="284" y="378" width="46" height="8" rx="4"/></g>
+  <g fill="#D3DCE7"><rect x="102" y="96" width="52" height="6" rx="3"/><rect x="438" y="96" width="48" height="6" rx="3"/><rect x="102" y="352" width="44" height="6" rx="3"/><rect x="438" y="352" width="56" height="6" rx="3"/><rect x="284" y="394" width="34" height="6" rx="3"/></g>
+</svg>

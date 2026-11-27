@@ -1,0 +1,35 @@
+<svg viewBox="0 0 560 440" fill="none" role="img" aria-label="Conversa entre o aluno e o agente de IA com recomendação de estudo">
+  <defs><filter id="ill-sh" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#0B1F35" flood-opacity=".18"/></filter></defs>
+  <!-- tablet -->
+  <g filter="url(#ill-sh)"><rect x="150" y="16" width="262" height="408" rx="24" fill="#0B1F35"/></g>
+  <rect x="162" y="28" width="238" height="384" rx="14" fill="#FEFEFE"/>
+  <rect x="162" y="28" width="238" height="56" rx="14" fill="#F5F8FB"/><rect x="162" y="70" width="238" height="14" fill="#F5F8FB"/><line x1="162" y1="84" x2="400" y2="84" stroke="#E4E9F0"/>
+  <rect x="178" y="42" width="28" height="28" rx="7" fill="#06315C"/><use href="#sol" x="182" y="46" width="20" height="20" color="#FEAA03"/>
+  <rect x="216" y="46" width="80" height="8" rx="4" fill="#0B1F35"/><rect x="216" y="60" width="56" height="6" rx="3" fill="#7A8BA0"/>
+  <!-- mensagens -->
+  <rect x="178" y="100" width="170" height="52" rx="10" fill="#F5F8FB"/>
+  <rect x="190" y="112" width="140" height="7" rx="3.5" fill="#506379"/><rect x="190" y="125" width="120" height="7" rx="3.5" fill="#506379"/><rect x="190" y="138" width="70" height="7" rx="3.5" fill="#506379"/>
+  <rect x="250" y="166" width="134" height="36" rx="10" fill="#0258A3"/>
+  <rect x="262" y="178" width="96" height="7" rx="3.5" fill="#FEFEFE" opacity=".9"/><rect x="262" y="189" width="60" height="6" rx="3" fill="#FEFEFE" opacity=".6"/>
+  <rect x="178" y="216" width="206" height="128" rx="10" fill="#F5F8FB"/>
+  <rect x="190" y="228" width="150" height="7" rx="3.5" fill="#506379"/>
+  <rect x="190" y="244" width="182" height="88" rx="8" fill="#FEFEFE" stroke="#E4E9F0"/>
+  <rect x="198" y="252" width="166" height="44" rx="5" fill="#EAF2FA"/>
+  <circle cx="281" cy="274" r="13" fill="#0258A3"/><path d="M277 268v12l10-6z" fill="#FEFEFE"/>
+  <rect x="198" y="304" width="110" height="7" rx="3.5" fill="#0B1F35"/><rect x="198" y="316" width="70" height="6" rx="3" fill="#7A8BA0"/>
+  <!-- campo de texto -->
+  <rect x="178" y="364" width="206" height="32" rx="16" fill="#FEFEFE" stroke="#D3DCE7"/>
+  <rect x="194" y="377" width="90" height="6" rx="3" fill="#D3DCE7"/><circle cx="368" cy="380" r="10" fill="#FEAA03"/>
+  <path d="M364 380h8m-3-3 3 3-3 3" stroke="#0B1F35" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- cartão de habilidades -->
+  <g filter="url(#ill-sh)"><rect x="372" y="96" width="172" height="134" rx="12" fill="#FEFEFE"/></g>
+  <rect x="388" y="112" width="90" height="8" rx="4" fill="#0B1F35"/>
+  <rect x="388" y="134" width="70" height="6" rx="3" fill="#7A8BA0"/><rect x="388" y="146" width="140" height="8" rx="4" fill="#E9EFF6"/><rect x="388" y="146" width="115" height="8" rx="4" fill="#0258A3"/>
+  <rect x="388" y="166" width="60" height="6" rx="3" fill="#7A8BA0"/><rect x="388" y="178" width="140" height="8" rx="4" fill="#E9EFF6"/><rect x="388" y="178" width="92" height="8" rx="4" fill="#0258A3"/>
+  <rect x="388" y="198" width="80" height="6" rx="3" fill="#7A8BA0"/><rect x="388" y="210" width="140" height="8" rx="4" fill="#E9EFF6"/><rect x="388" y="210" width="62" height="8" rx="4" fill="#FEAA03"/>
+  <!-- cartão de talento -->
+  <g filter="url(#ill-sh)"><rect x="16" y="262" width="176" height="76" rx="12" fill="#FEFEFE"/></g>
+  <rect x="30" y="278" width="40" height="40" rx="10" fill="#FFF4DC"/>
+  <path d="m50 286 4 8.2 9 1.3-6.5 6.3 1.5 9-8-4.3-8 4.3 1.5-9-6.5-6.3 9-1.3z" fill="#FEAA03"/>
+  <rect x="80" y="284" width="92" height="8" rx="4" fill="#0B1F35"/><rect x="80" y="298" width="76" height="6" rx="3" fill="#7A8BA0"/><rect x="80" y="310" width="56" height="6" rx="3" fill="#7A8BA0"/>
+</svg>

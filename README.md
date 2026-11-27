@@ -23,6 +23,7 @@ src/
   styles.css     estilos compartilhados
   app.js         menu, abas e validação do formulário
   icons.svg.part ícones SVG
+  illustrations/ ilustrações vetoriais do topo de cada página
   build.py       monta as páginas com cabeçalho e rodapé comuns
 assets/          logo em SVG e PNG (normal, branca e símbolo)
 design-system/   design system gerado com a skill UI/UX Pro Max
