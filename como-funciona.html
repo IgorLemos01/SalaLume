@@ -9,7 +9,7 @@
 <link rel="icon" href="assets/simbolo.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800;900&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Caveat:wght@500;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600&family=Source+Sans+3:wght@400;600;700&family=Caveat:wght@500&display=swap">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -36,6 +36,7 @@
       <symbol id="i-screen" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M3 4h18v12H3zM8 20h8M12 16v4"/></symbol>
     <symbol id="i-chart" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M3 3v18h18M8 17v-5M13 17V8M18 17v-8"/></symbol>
     <symbol id="i-calendar" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M4 5h16v16H4zM4 10h16M9 3v4M15 3v4"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M21 12a8 8 0 0 1-11.6 7.1L4 20.5l1.4-4.6A8 8 0 1 1 21 12ZM8.5 12h.01M12 12h.01M15.5 12h.01"/></symbol>
 </defs></svg>
 <header class="top" id="top">
   <div class="wrap">
@@ -47,13 +48,9 @@
 </header>
 <main>
 <section class="page-hero" aria-labelledby="ph-t">
-  <svg class="ph-sun" viewBox="0 0 300 170" fill="none" aria-hidden="true">
-  <path d="M40 170 A110 110 0 0 1 260 170" stroke="currentColor" stroke-width="16"/>
-  <path d="M150 35V15M58 73 44 59M242 73l14-14M24 131l-19-5M276 131l19-5" stroke="currentColor" stroke-width="14" stroke-linecap="round"/>
-</svg>
   <div class="wrap">
     <p class="crumbs"><a href="index.html">Início</a><svg><use href="#i-arrow"/></svg><span aria-current="page">Como funciona</span></p>
-    <h1 id="ph-t">Uma sala de aula inteligente, do equipamento ao projeto pedagógico.</h1>
+    <h1 id="ph-t">Uma sala de aula inteligente, do equipamento ao projeto pedagógico</h1>
     <p class="lead">A tecnologia da Sala Lume se apoia em princípios claros e em um ciclo de aprendizagem que combina tela, dispositivos e papel.</p>
   </div>
 </section>
@@ -61,7 +58,7 @@
 <section class="section" aria-labelledby="am-t">
   <div class="wrap cols-2">
     <div class="section-head" style="margin:0">
-      <h2 id="am-t">O ambiente da sala.</h2>
+      <h2 id="am-t">O ambiente da sala</h2>
       <p class="lead">Cada sala tem uma tela interativa, onde o professor apresenta conteúdos, simulações e atividades colaborativas. Cada aluno usa o seu próprio dispositivo: notebook, Chromebook ou tablet.</p>
     </div>
     <div class="device" aria-label="O que o aluno faz no dispositivo">
@@ -69,7 +66,7 @@
       <div class="device-row">
         <div><svg><use href="#i-book"/></svg><b>Acompanhar</b>os conteúdos da aula</div>
         <div><svg><use href="#i-list"/></svg><b>Responder</b>quizzes e tarefas digitais</div>
-        <div><svg style="color:var(--cta)"><use href="#sol"/></svg><b>Conversar</b>com o agente, seu coach pessoal</div>
+        <div><svg><use href="#i-chat"/></svg><b>Interagir</b>com o agente de IA, seu tutor pessoal</div>
       </div>
     </div>
   </div>
@@ -78,7 +75,7 @@
 <section class="section principles" aria-labelledby="pr-t">
   <div class="wrap pgrid">
     <div class="section-head">
-      <h2 id="pr-t">Cinco princípios pedagógicos.</h2>
+      <h2 id="pr-t">Cinco princípios pedagógicos</h2>
       <p class="lead">Os equipamentos e a IA existem para sustentar cada um deles.</p>
     </div>
     <ul class="plist">
@@ -94,24 +91,16 @@
 <section class="section cycle" id="ciclo" aria-labelledby="ci-t">
   <div class="wrap">
     <div class="section-head">
-      <h2 id="ci-t">Um ciclo que vai da tela ao papel e volta.</h2>
+      <h2 id="ci-t">Ciclo de aprendizagem combinado</h2>
       <p class="lead">Cada unidade didática percorre seis etapas. As evidências de cada uma alimentam a seguinte.</p>
-    </div>
-    <div class="cycle-arc-wrap" aria-hidden="true">
-      <div class="cycle-arc">
-        <svg viewBox="0 0 1000 96" preserveAspectRatio="none">
-          <defs><linearGradient id="cg" x1="0" x2="1"><stop offset="0" stop-color="#0258A3"/><stop offset="1" stop-color="#FEAA03"/></linearGradient></defs>
-          <path d="M0 96 A500 96 0 0 1 1000 96" fill="none" stroke="url(#cg)" stroke-width="4" stroke-linecap="round" vector-effect="non-scaling-stroke"/>
-        </svg>
-      </div>
     </div>
     <ol class="steps">
       <li class="step" style="--y:0px;--c:var(--brand)"><span class="dot"></span><span class="step-n">1</span><h3>Planejamento</h3><p>O professor define os objetivos pela BNCC e pelo currículo da escola e escolhe recursos do MEC e de acervos abertos. O agente sugere materiais e atividades alinhados.</p><div class="chips"><span class="chip prof">Professor</span><span class="chip ia">IA sugere</span></div></li>
-      <li class="step" style="--y:-77px;--c:var(--brand)"><span class="dot"></span><span class="step-n">2</span><h3>Aula interativa</h3><p>Vídeos, simulações e exercícios guiados na tela. Perguntas rápidas nos dispositivos geram as primeiras evidências de entendimento.</p><div class="chips"><span class="chip dig">Digital</span></div></li>
-      <li class="step" style="--y:-94px;--c:var(--brand)"><span class="dot"></span><span class="step-n">3</span><h3>Tarefa à mão</h3><p>Exercícios, resumos e provas em folhas padrão, em sala ou em casa, sem corretor ortográfico digital.</p><div class="chips"><span class="chip pap">Papel</span></div></li>
-      <li class="step" style="--y:-94px;--c:#C98500"><span class="dot"></span><span class="step-n">4</span><h3>Digitalização</h3><p>As folhas são escaneadas em lote. A IA lê a escrita, corrige por gabarito ou rubrica, analisa ortografia e caligrafia e lança os resultados.</p><div class="chips"><span class="chip ia">IA analisa</span></div></li>
-      <li class="step" style="--y:-77px;--c:#C98500"><span class="dot"></span><span class="step-n">5</span><h3>Devolutiva</h3><p>Cada aluno recebe retorno individual com erros, acertos e sugestões. O professor vê o painel da turma com habilidades fortes, fracas e padrões de erro.</p><div class="chips"><span class="chip ia">IA resume</span></div></li>
-      <li class="step" style="--y:0px;--c:#C98500"><span class="dot"></span><span class="step-n">6</span><h3>Ajuste</h3><p>O professor planeja reforços, desafios, projetos e encaminhamentos para Olimpíadas e clubes. O agente recomenda trilhas aos alunos.</p><div class="chips"><span class="chip prof">Professor decide</span></div></li>
+      <li class="step" style="--y:-77px;--c:var(--brand)"><span class="dot"></span><span class="step-n">2</span><h3>Aula introdutória</h3><p>Vídeos, simulações e exercícios guiados na tela. Perguntas rápidas nos dispositivos geram as primeiras evidências de entendimento.</p><div class="chips"><span class="chip dig">Digital</span></div></li>
+      <li class="step" style="--y:-94px;--c:var(--brand)"><span class="dot"></span><span class="step-n">3</span><h3>Atividade manuscrita</h3><p>Exercícios, resumos e provas em folhas padrão, em sala ou em casa, sem corretor ortográfico digital.</p><div class="chips"><span class="chip pap">Papel</span></div></li>
+      <li class="step" style="--y:-94px;--c:#C98500"><span class="dot"></span><span class="step-n">4</span><h3>Digitalização e análise</h3><p>As folhas são escaneadas em lote. A IA lê a escrita, corrige por gabarito ou rubrica, analisa ortografia e caligrafia e lança os resultados.</p><div class="chips"><span class="chip ia">IA analisa</span></div></li>
+      <li class="step" style="--y:-77px;--c:#C98500"><span class="dot"></span><span class="step-n">5</span><h3>Feedback</h3><p>Cada aluno recebe retorno individual com erros, acertos e sugestões. O professor vê o painel da turma com habilidades fortes, fracas e padrões de erro.</p><div class="chips"><span class="chip ia">IA resume</span></div></li>
+      <li class="step" style="--y:0px;--c:#C98500"><span class="dot"></span><span class="step-n">6</span><h3>Ajuste pedagógico</h3><p>O professor planeja reforços, desafios, projetos e encaminhamentos para Olimpíadas e clubes. O agente recomenda trilhas aos alunos.</p><div class="chips"><span class="chip prof">Professor decide</span></div></li>
     </ol>
     <div class="cycle-legend">
       <span class="chip prof">Professor</span><span class="chip dig">Digital</span><span class="chip pap">Papel</span><span class="chip ia">IA</span>
