@@ -1,0 +1,34 @@
+{{HERO:Agendar apresentação|Leve a Sala Lume para a sua escola.|Mostramos o ecossistema em funcionamento e conversamos sobre a realidade da sua rede: séries atendidas, currículo e formação dos professores.}}
+
+<section class="section final" id="contato" aria-labelledby="fi-t">
+  <div class="wrap final-grid">
+    <div class="final-copy">
+      <h2 id="fi-t">O que acontece na apresentação.</h2>
+      <ul>
+        <li><svg><use href="#i-check"/></svg>Conversa de 40 minutos, on-line ou na escola</li>
+        <li><svg><use href="#i-check"/></svg>Demonstração de um ciclo completo com uma habilidade escolhida por você</li>
+        <li><svg><use href="#i-check"/></svg>Proposta de implantação por etapas, com formação dos professores</li>
+      </ul>
+    </div>
+    <form class="card" id="form" novalidate>
+      <div id="form-body" style="display:grid;gap:18px">
+        <div class="fields">
+          <div class="field"><label for="f-nome">Seu nome</label><input id="f-nome" name="nome" autocomplete="name" required><span class="err" id="e-nome"></span></div>
+          <div class="field"><label for="f-cargo">Cargo</label><select id="f-cargo" name="cargo" required><option value="">Selecione</option><option>Direção</option><option>Coordenação pedagógica</option><option>Mantenedora ou rede</option><option>Professor</option><option>Outro</option></select><span class="err" id="e-cargo"></span></div>
+          <div class="field full"><label for="f-escola">Escola ou rede</label><input id="f-escola" name="escola" autocomplete="organization" required><span class="err" id="e-escola"></span></div>
+          <div class="field"><label for="f-email">E-mail</label><input id="f-email" name="email" type="email" autocomplete="email" required><span class="err" id="e-email"></span></div>
+          <div class="field"><label for="f-alunos">Número de alunos</label><select id="f-alunos" name="alunos"><option value="">Selecione</option><option>Até 300</option><option>301 a 1.000</option><option>1.001 a 5.000</option><option>Mais de 5.000</option></select></div>
+          <div class="field full"><label for="f-msg">O que você quer ver na apresentação? <span>(opcional)</span></label><textarea id="f-msg" name="mensagem"></textarea></div>
+        </div>
+        <button class="btn btn-cta" type="submit">Agendar apresentação</button>
+        <p class="form-foot">Usamos seus dados apenas para combinar a apresentação.</p>
+      </div>
+      <div class="done" id="form-done" hidden role="status" aria-live="polite">
+        <svg><use href="#i-check"/></svg>
+        <h3>Pedido de apresentação preenchido.</h3>
+        <p id="done-msg"></p>
+        <p class="note">Protótipo: o envio ainda será conectado ao e-mail ou CRM da Sala Lume.</p>
+      </div>
+    </form>
+  </div>
+</section>

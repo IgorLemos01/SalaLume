@@ -1,0 +1,135 @@
+{{HERO:Agente de IA|Um agente que acompanha cada aluno, todos os dias.|Presente em cada dispositivo, o agente da Sala Lume transforma o acompanhamento contínuo em orientação para o aluno, apoio para o professor e visão de conjunto para a gestão.}}
+
+<section class="section agent" aria-labelledby="ag-t">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 id="ag-t">Três públicos, o mesmo acompanhamento.</h2>
+    </div>
+    <div class="tabs" role="tablist" aria-label="Para quem">
+      <button class="tab" role="tab" id="tab-aluno" aria-controls="p-aluno" aria-selected="true">Aluno</button>
+      <button class="tab" role="tab" id="tab-prof" aria-controls="p-prof" aria-selected="false" tabindex="-1">Professor</button>
+      <button class="tab" role="tab" id="tab-gestao" aria-controls="p-gestao" aria-selected="false" tabindex="-1">Gestão</button>
+    </div>
+
+    <div class="panel" role="tabpanel" id="p-aluno" aria-labelledby="tab-aluno">
+      <div class="panel-copy">
+        <span class="role">Coach pessoal</span>
+        <h3 style="font-size:1.8rem">Cada estudante sabe onde está e qual é o próximo passo.</h3>
+        <ul class="ticks">
+          <li><svg><use href="#i-check"/></svg><span>Mostra quais habilidades estão firmes e quais pedem reforço.</span></li>
+          <li><svg><use href="#i-check"/></svg><span>Sugere vídeos, exercícios, simuladores e leituras com base no desempenho.</span></li>
+          <li><svg><use href="#i-check"/></svg><span>Reconhece talentos e indica Olimpíadas, projetos avançados e cursos livres.</span></li>
+        </ul>
+      </div>
+      <div class="mock" aria-label="Exemplo da tela do aluno">
+        <div class="mock-h"><b>Olá, Ana</b><small>Matemática, 6º ano</small></div>
+        <div class="skill"><div class="skill-top"><span>Frações equivalentes<span class="state good">Firme</span></span><span>82%</span></div><div class="track"><i style="width:82%"></i></div></div>
+        <div class="skill"><div class="skill-top"><span>Leitura de gráficos</span><span>66%</span></div><div class="track"><i style="width:66%"></i></div></div>
+        <div class="skill"><div class="skill-top"><span>Problemas com porcentagem<span class="state need">Reforçar</span></span><span>45%</span></div><div class="track"><i class="low" style="width:45%"></i></div></div>
+        <div class="recs">
+          <div class="rec"><span class="ic"><svg><use href="#i-play"/></svg></span><span>Porcentagem no dia a dia<small>Vídeo, Khan Academy Brasil</small></span><span class="min">8 min</span></div>
+          <div class="rec"><span class="ic"><svg><use href="#i-list"/></svg></span><span>Lista guiada: descontos e aumentos<small>Exercícios, Plataforma MEC RED</small></span><span class="min">15 min</span></div>
+        </div>
+        <div class="talent"><svg><use href="#i-star"/></svg><span>Seu desempenho em frações está alto há dois bimestres. Que tal se preparar para a OBMEP com o clube de matemática?</span></div>
+        <p class="note">Exemplo ilustrativo.</p>
+      </div>
+    </div>
+
+    <div class="panel" role="tabpanel" id="p-prof" aria-labelledby="tab-prof" hidden>
+      <div class="panel-copy">
+        <span class="role">Copiloto docente</span>
+        <h3 style="font-size:1.8rem">A turma inteira em uma leitura, com sugestões que você aceita ou ajusta.</h3>
+        <ul class="ticks">
+          <li><svg><use href="#i-check"/></svg><span>Mostra quem avançou, quem estagnou e quem está em risco.</span></li>
+          <li><svg><use href="#i-check"/></svg><span>Recomenda outras abordagens: mais exemplos concretos, prática guiada, simulações, trabalho em grupo.</span></li>
+          <li><svg><use href="#i-check"/></svg><span>Indica os recursos certos para cada habilidade.</span></li>
+        </ul>
+      </div>
+      <div class="mock" aria-label="Exemplo do painel do professor">
+        <div class="mock-h"><b>Turma 6ºB</b><small>28 alunos, prova de frações</small></div>
+        <div class="split" role="img" aria-label="6 alunos avançados, 17 em progresso, 5 em risco">
+          <span style="flex:6;background:var(--brand);color:var(--on-brand)">6</span>
+          <span style="flex:17;background:var(--surface-2);color:var(--brand)">17</span>
+          <span style="flex:5;background:var(--cta);color:#0A2342">5</span>
+        </div>
+        <div class="legend"><span><i style="background:var(--brand)"></i>Avançados</span><span><i style="background:var(--surface-2)"></i>Em progresso</span><span><i style="background:var(--cta)"></i>Em risco</span></div>
+        <div class="insight"><b>Erro mais frequente: somar os denominadores</b>Apareceu em 11 provas, na questão 4.</div>
+        <div class="insight"><b>Sugestão do agente</b>Uma aula de prática guiada com barras de fração antes da próxima lista.</div>
+        <div class="decide">
+          <button class="btn btn-brand" type="button" data-decide="Sugestão adicionada ao plano da próxima aula.">Aceitar sugestão</button>
+          <button class="btn btn-ghost" type="button" data-decide="Sugestão aberta para você ajustar.">Ajustar</button>
+        </div>
+        <p class="decide-msg" role="status" aria-live="polite"></p>
+      </div>
+    </div>
+
+    <div class="panel" role="tabpanel" id="p-gestao" aria-labelledby="tab-gestao" hidden>
+      <div class="panel-copy">
+        <span class="role">Visão agregada para coordenação e direção</span>
+        <h3 style="font-size:1.8rem">Decisões de gestão apoiadas em evidência, turma a turma.</h3>
+        <ul class="ticks">
+          <li><svg><use href="#i-check"/></svg><span>Compara turmas, séries e escolas.</span></li>
+          <li><svg><use href="#i-check"/></svg><span>Aponta as áreas do currículo que mais pedem intervenção.</span></li>
+          <li><svg><use href="#i-check"/></svg><span>Apoia escolhas de formação docente, projetos especiais e investimentos.</span></li>
+        </ul>
+      </div>
+      <div class="mock" aria-label="Exemplo do painel da coordenação">
+        <div class="mock-h"><b>Matemática, 2º bimestre</b><small>Habilidades consolidadas por turma</small></div>
+        <div class="bars">
+          <div class="bar"><span>6ºA</span><span class="track"><i style="width:74%"></i></span><b>74%</b></div>
+          <div class="bar"><span>6ºB</span><span class="track"><i style="width:68%"></i></span><b>68%</b></div>
+          <div class="bar"><span>7ºA</span><span class="track"><i style="width:61%"></i></span><b>61%</b></div>
+          <div class="bar"><span>7ºB</span><span class="track"><i style="width:66%"></i></span><b>66%</b></div>
+          <div class="bar"><span>8ºA</span><span class="track"><i class="low" style="width:49%"></i></span><b>49%</b></div>
+          <div class="bar"><span>8ºB</span><span class="track"><i class="low" style="width:52%"></i></span><b>52%</b></div>
+        </div>
+        <div class="insight"><b>Maior necessidade: álgebra no 8º ano</b>Prioridade sugerida para a próxima formação de professores.</div>
+        <p class="note">Valores ilustrativos.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="ev-t">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 id="ev-t">Recomendações baseadas em evidências.</h2>
+      <p class="lead">Depois de cada avaliação ou tarefa, digital ou manuscrita, o agente segue sempre os mesmos três passos.</p>
+    </div>
+    <ol class="evidence">
+      <li><span class="n">1</span><h3>Analisa</h3><p>Identifica quais habilidades foram dominadas e quais ainda não.</p></li>
+      <li><span class="n">2</span><h3>Recomenda</h3><p>Sugere recursos específicos para reforço ou aprofundamento, a partir da matriz de habilidades.</p></li>
+      <li><span class="n">3</span><h3>Registra</h3><p>Acompanha o uso de cada recurso e o impacto nas avaliações seguintes.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="section paths" aria-labelledby="tr-t">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 id="tr-t">Ninguém fica invisível.</h2>
+      <p class="lead">Quando o desempenho se repete, para cima ou para baixo, o agente avisa o professor e propõe um caminho.</p>
+    </div>
+    <div class="paths-grid">
+      <article class="path up">
+        <svg class="pic" style="color:var(--cta)"><use href="#sol"/></svg>
+        <h3 style="font-size:1.6rem">Trilhas para talentos</h3>
+        <p>Alto desempenho consistente em uma área é sinalizado ao professor e à coordenação, com sugestões de trilhas de alto nível.</p>
+        <ul>
+          <li><svg><use href="#i-star"/></svg>Olimpíadas de Matemática e de Física</li>
+          <li><svg><use href="#i-star"/></svg>Projetos STEM e clubes de ciência</li>
+          <li><svg><use href="#i-star"/></svg>Cursos online avançados</li>
+        </ul>
+      </article>
+      <article class="path support">
+        <svg class="pic" style="color:var(--brand)"><use href="#i-hands"/></svg>
+        <h3 style="font-size:1.6rem">Reforço e recuperação</h3>
+        <p>Dificuldades específicas recebem sequências de atividades diagnósticas e de recuperação, com recursos do MEC e de acervos abertos no nível adequado e no tipo de apoio que funciona para o aluno.</p>
+        <div class="styles"><span>Mais visual</span><span>Mais textual</span><span>Mais prática</span></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+{{NEXT:como-funciona.html|Como funciona|escrita-a-mao.html|Escrita à mão}}
+{{CTA}}
