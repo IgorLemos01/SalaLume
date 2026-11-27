@@ -82,15 +82,6 @@ def hero(m, mode):
 </section>'''
 
 
-def nxt(m, mode):
-    a, al, b, bl = m.group(1).split('|')
-    return f'''<section class="section tight" aria-label="Continuar navegando">
-  <div class="wrap next-page">
-    <a href="{href(a, mode)}"><small>Anterior</small><b>{al}</b></a>
-    <a class="fwd" href="{href(b, mode)}"><small>Próxima</small><b>{bl}</b></a>
-  </div>
-</section>'''
-
 
 CTA = '''<section class="section tight" aria-labelledby="cta-t">
   <div class="wrap">
@@ -109,7 +100,6 @@ FONTS = '''<link rel="preconnect" href="https://fonts.googleapis.com">
 def render(f, title, desc, mode, fragment_only):
     body = (S / 'pages' / f).read_text()
     body = re.sub(r'\{\{HERO:(.+?)\}\}', lambda m: hero(m, mode), body)
-    body = re.sub(r'\{\{NEXT:(.+?)\}\}', lambda m: nxt(m, mode), body)
     body = body.replace('{{CTA}}', CTA)
     icons = f'''<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
 <symbol id="sol" viewBox="{SVB}"><path fill="currentColor" d="{SYM}"/></symbol>
