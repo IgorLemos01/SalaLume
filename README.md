@@ -38,9 +38,20 @@ python3 src/build.py
 
 O resultado vai para `docs/`. Não edite `docs/` à mão, porque o build sobrescreve a pasta.
 
-## Publicar no GitHub Pages
+## Publicação
 
-Em **Settings › Pages**, escolha a branch `main` e a pasta `/docs`.
+O site está em https://igorlemos01.github.io/SalaLume/ e é publicado pelo GitHub Pages a partir da branch `gh-pages`, que é uma cópia da pasta `docs/`.
+
+Para publicar uma alteração, gere o site, faça o commit na `main` e atualize a `gh-pages`:
+
+```bash
+python3 src/build.py
+git add -A && git commit -m "Atualiza o site"
+git push origin main
+git subtree split --prefix docs -b gh-pages-novo
+git push -f origin gh-pages-novo:gh-pages
+git branch -D gh-pages-novo
+```
 
 ## Identidade visual
 
